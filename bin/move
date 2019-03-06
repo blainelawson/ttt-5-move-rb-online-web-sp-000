@@ -10,9 +10,9 @@ puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 
 input = gets.strip
-
+binding.pry
 input_to_index(input)
-
+binding.pry
 move(board, input, "X")
 
 display_board(board)
