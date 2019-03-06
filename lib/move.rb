@@ -12,7 +12,7 @@ def input_to_index(input)
   input = input.to_i
   input -= 1
 end
-
+binding.pry
 def move(board, input, character = "X")
   board[input] = character
 end
