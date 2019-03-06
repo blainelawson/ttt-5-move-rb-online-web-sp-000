@@ -9,10 +9,8 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(input)
-  binding.pry
   input = input.to_i
   input -= 1
-  binding.pry
 end
 
 def move(board, input, character = "X")
